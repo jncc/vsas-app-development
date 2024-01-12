@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.32.1-Lima" saveUserFull="Claire Lush" saveDateTime="2024-01-12T11:47:57" saveUser="claire.lush" projectname="VSAS_v1_qfield.qgs (offline)">
+<qgis version="3.32.1-Lima" saveUserFull="Claire Lush" saveDateTime="2024-01-12T15:15:45" saveUser="claire.lush" projectname="VSAS_v1_qfield.qgs (offline)">
   <homePath path=""/>
   <title>VSAS_v1_qfield.qgs (offline)</title>
   <transaction mode="Disabled"/>
@@ -87,11 +87,11 @@
   </layer-tree-group>
   <snapping-settings intersection-snapping="0" minScale="0" unit="1" tolerance="12" self-snapping="0" scaleDependencyMode="0" enabled="0" mode="2" type="1" maxScale="0">
     <individual-layer-settings>
-      <layer-setting minScale="0" units="1" tolerance="12" enabled="0" type="1" maxScale="0" id="TripDetails_fe77811d_e79b_40c4_8730_efab761572f4"/>
-      <layer-setting minScale="0" units="1" tolerance="12" enabled="0" type="1" maxScale="0" id="EnvConditions_16aa505f_c027_4e96_a5ad_e251d45ccd05"/>
-      <layer-setting minScale="0" units="1" tolerance="12" enabled="0" type="1" maxScale="0" id="Land_29c3430e_4dc5_4952_b464_e6a39c6cf6aa"/>
-      <layer-setting minScale="0" units="1" tolerance="12" enabled="0" type="1" maxScale="0" id="Survey_498527e5_0992_486d_a486_e9430a7c99a5"/>
       <layer-setting minScale="0" units="1" tolerance="12" enabled="0" type="1" maxScale="0" id="Observations_cd80cc03_97df_4b13_989e_4f8f70d909ea"/>
+      <layer-setting minScale="0" units="1" tolerance="12" enabled="0" type="1" maxScale="0" id="Land_29c3430e_4dc5_4952_b464_e6a39c6cf6aa"/>
+      <layer-setting minScale="0" units="1" tolerance="12" enabled="0" type="1" maxScale="0" id="EnvConditions_16aa505f_c027_4e96_a5ad_e251d45ccd05"/>
+      <layer-setting minScale="0" units="1" tolerance="12" enabled="0" type="1" maxScale="0" id="TripDetails_fe77811d_e79b_40c4_8730_efab761572f4"/>
+      <layer-setting minScale="0" units="1" tolerance="12" enabled="0" type="1" maxScale="0" id="Survey_498527e5_0992_486d_a486_e9430a7c99a5"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -3274,7 +3274,7 @@ def my_form_open(dialog, layer, feature):
         <policy field="survey_date" policy="DefaultValue"/>
         <policy field="timestamp" policy="DefaultValue"/>
         <policy field="node_type" policy="Duplicate"/>
-        <policy field="survey_id" policy="Duplicate"/>
+        <policy field="survey_id" policy="DefaultValue"/>
         <policy field="survey_name" policy="DefaultValue"/>
       </splitPolicies>
       <defaults>
@@ -3359,7 +3359,7 @@ def my_form_open(dialog, layer, feature):
         </labelStyle>
         <attributeEditorField verticalStretch="0" horizontalStretch="0" index="5" showLabel="1" name="survey_id">
           <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
-            <labelFont strikethrough="0" description="MS Shell Dlg 2,9.75,-1,5,50,0,0,0,0,0" underline="0" bold="0" style="" italic="0"/>
+            <labelFont strikethrough="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" underline="0" bold="0" style="" italic="0"/>
           </labelStyle>
         </attributeEditorField>
         <attributeEditorField verticalStretch="0" horizontalStretch="0" index="1" showLabel="1" name="survey_route">
@@ -3388,7 +3388,7 @@ def my_form_open(dialog, layer, feature):
         <field editable="0" name="fid"/>
         <field editable="1" name="node_type"/>
         <field editable="0" name="survey_date"/>
-        <field editable="1" name="survey_id"/>
+        <field editable="0" name="survey_id"/>
         <field editable="0" name="survey_name"/>
         <field editable="1" name="survey_route"/>
         <field editable="0" name="timestamp"/>
@@ -6680,7 +6680,7 @@ def my_form_open(dialog, layer, feature):
       <attachmentDirs type="QStringList">
         <value>DCIM</value>
       </attachmentDirs>
-      <dirsToCopy type="QString">{"Screenshots": false, "vsas-app-development": false, "vsas-app-development\\.git": false, "vsas-app-development\\.git\\hooks": false, "vsas-app-development\\.git\\info": false, "vsas-app-development\\.git\\logs": false, "vsas-app-development\\.git\\logs\\refs": false, "vsas-app-development\\.git\\logs\\refs\\heads": false, "vsas-app-development\\.git\\logs\\refs\\remotes": false, "vsas-app-development\\.git\\logs\\refs\\remotes\\origin": false, "vsas-app-development\\.git\\objects": false, "vsas-app-development\\.git\\objects\\02": false, "vsas-app-development\\.git\\objects\\17": false, "vsas-app-development\\.git\\objects\\20": false, "vsas-app-development\\.git\\objects\\24": false, "vsas-app-development\\.git\\objects\\2a": false, "vsas-app-development\\.git\\objects\\2b": false, "vsas-app-development\\.git\\objects\\32": false, "vsas-app-development\\.git\\objects\\46": false, "vsas-app-development\\.git\\objects\\54": false, "vsas-app-development\\.git\\objects\\59": false, "vsas-app-development\\.git\\objects\\68": false, "vsas-app-development\\.git\\objects\\69": false, "vsas-app-development\\.git\\objects\\6a": false, "vsas-app-development\\.git\\objects\\7e": false, "vsas-app-development\\.git\\objects\\8f": false, "vsas-app-development\\.git\\objects\\91": false, "vsas-app-development\\.git\\objects\\92": false, "vsas-app-development\\.git\\objects\\98": false, "vsas-app-development\\.git\\objects\\9a": false, "vsas-app-development\\.git\\objects\\9c": false, "vsas-app-development\\.git\\objects\\9d": false, "vsas-app-development\\.git\\objects\\a2": false, "vsas-app-development\\.git\\objects\\a6": false, "vsas-app-development\\.git\\objects\\b0": false, "vsas-app-development\\.git\\objects\\b6": false, "vsas-app-development\\.git\\objects\\b7": false, "vsas-app-development\\.git\\objects\\b8": false, "vsas-app-development\\.git\\objects\\c0": false, "vsas-app-development\\.git\\objects\\c3": false, "vsas-app-development\\.git\\objects\\c4": false, "vsas-app-development\\.git\\objects\\cc": false, "vsas-app-development\\.git\\objects\\cf": false, "vsas-app-development\\.git\\objects\\da": false, "vsas-app-development\\.git\\objects\\db": false, "vsas-app-development\\.git\\objects\\e2": false, "vsas-app-development\\.git\\objects\\e3": false, "vsas-app-development\\.git\\objects\\e5": false, "vsas-app-development\\.git\\objects\\e9": false, "vsas-app-development\\.git\\objects\\f2": false, "vsas-app-development\\.git\\objects\\ff": false, "vsas-app-development\\.git\\objects\\info": false, "vsas-app-development\\.git\\objects\\pack": false, "vsas-app-development\\.git\\refs": false, "vsas-app-development\\.git\\refs\\heads": false, "vsas-app-development\\.git\\refs\\remotes": false, "vsas-app-development\\.git\\refs\\remotes\\origin": false, "vsas-app-development\\.git\\refs\\tags": false}</dirsToCopy>
+      <dirsToCopy type="QString">{"Screenshots": false, "vsas-app-development": false, "vsas-app-development\\.git": false, "vsas-app-development\\.git\\hooks": false, "vsas-app-development\\.git\\info": false, "vsas-app-development\\.git\\logs": false, "vsas-app-development\\.git\\logs\\refs": false, "vsas-app-development\\.git\\logs\\refs\\heads": false, "vsas-app-development\\.git\\logs\\refs\\remotes": false, "vsas-app-development\\.git\\logs\\refs\\remotes\\origin": false, "vsas-app-development\\.git\\objects": false, "vsas-app-development\\.git\\objects\\02": false, "vsas-app-development\\.git\\objects\\17": false, "vsas-app-development\\.git\\objects\\20": false, "vsas-app-development\\.git\\objects\\24": false, "vsas-app-development\\.git\\objects\\26": false, "vsas-app-development\\.git\\objects\\2a": false, "vsas-app-development\\.git\\objects\\2b": false, "vsas-app-development\\.git\\objects\\32": false, "vsas-app-development\\.git\\objects\\46": false, "vsas-app-development\\.git\\objects\\54": false, "vsas-app-development\\.git\\objects\\59": false, "vsas-app-development\\.git\\objects\\67": false, "vsas-app-development\\.git\\objects\\68": false, "vsas-app-development\\.git\\objects\\69": false, "vsas-app-development\\.git\\objects\\6a": false, "vsas-app-development\\.git\\objects\\7e": false, "vsas-app-development\\.git\\objects\\8f": false, "vsas-app-development\\.git\\objects\\91": false, "vsas-app-development\\.git\\objects\\92": false, "vsas-app-development\\.git\\objects\\98": false, "vsas-app-development\\.git\\objects\\9a": false, "vsas-app-development\\.git\\objects\\9c": false, "vsas-app-development\\.git\\objects\\9d": false, "vsas-app-development\\.git\\objects\\a2": false, "vsas-app-development\\.git\\objects\\a3": false, "vsas-app-development\\.git\\objects\\a6": false, "vsas-app-development\\.git\\objects\\b0": false, "vsas-app-development\\.git\\objects\\b6": false, "vsas-app-development\\.git\\objects\\b7": false, "vsas-app-development\\.git\\objects\\b8": false, "vsas-app-development\\.git\\objects\\c0": false, "vsas-app-development\\.git\\objects\\c3": false, "vsas-app-development\\.git\\objects\\c4": false, "vsas-app-development\\.git\\objects\\cc": false, "vsas-app-development\\.git\\objects\\cf": false, "vsas-app-development\\.git\\objects\\d5": false, "vsas-app-development\\.git\\objects\\da": false, "vsas-app-development\\.git\\objects\\db": false, "vsas-app-development\\.git\\objects\\e1": false, "vsas-app-development\\.git\\objects\\e2": false, "vsas-app-development\\.git\\objects\\e3": false, "vsas-app-development\\.git\\objects\\e5": false, "vsas-app-development\\.git\\objects\\e9": false, "vsas-app-development\\.git\\objects\\f2": false, "vsas-app-development\\.git\\objects\\ff": false, "vsas-app-development\\.git\\objects\\info": false, "vsas-app-development\\.git\\objects\\pack": false, "vsas-app-development\\.git\\refs": false, "vsas-app-development\\.git\\refs\\heads": false, "vsas-app-development\\.git\\refs\\remotes": false, "vsas-app-development\\.git\\refs\\remotes\\origin": false, "vsas-app-development\\.git\\refs\\tags": false}</dirsToCopy>
       <exportDirectoryProject type="QString">D:\QField\VSAS_v1_6_0</exportDirectoryProject>
     </QFieldSync>
     <RenderMapTile type="bool">false</RenderMapTile>
@@ -6891,7 +6891,7 @@ def my_form_open(dialog, layer, feature):
       </spatialrefsys>
     </CoordinateCustomCrs>
   </ProjectDisplaySettings>
-  <ProjectGpsSettings destinationFollowsActiveLayer="1" autoAddTrackVertices="0" destinationLayer="TripDetails_fe77811d_e79b_40c4_8730_efab761572f4" destinationLayerProvider="ogr" autoCommitFeatures="0" destinationLayerName="TripDetails" destinationLayerSource="C:/Users/claire.lush/OneDrive - Idox Software Ltd/ESDM - JNCC Seabirds at Sea app/Development/VSAS.gpkg|layername=TripDetails">
+  <ProjectGpsSettings destinationFollowsActiveLayer="1" autoAddTrackVertices="0" destinationLayer="Survey_498527e5_0992_486d_a486_e9430a7c99a5" destinationLayerProvider="ogr" autoCommitFeatures="0" destinationLayerName="Start/Stop Survey" destinationLayerSource="C:/Users/claire.lush/OneDrive - Idox Software Ltd/ESDM - JNCC Seabirds at Sea app/Development/VSAS.gpkg|layername=Survey">
     <timeStampFields/>
   </ProjectGpsSettings>
 </qgis>
