@@ -1,7 +1,7 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="claire.lush" saveUserFull="Claire Lush" saveDateTime="2024-04-11T10:46:15" version="3.32.1-Lima" projectname="VSAS_v1_qfield.qgs (offline)">
+<qgis saveUser="claire.lush" saveUserFull="Claire Lush" saveDateTime="2024-04-11T10:46:14" version="3.32.1-Lima" projectname="">
   <homePath path=""/>
-  <title>VSAS_v1_qfield.qgs (offline)</title>
+  <title></title>
   <transaction mode="Disabled"/>
   <projectFlags set=""/>
   <projectCrs>
@@ -22,27 +22,27 @@
     <customproperties>
       <Option/>
     </customproperties>
-    <layer-tree-layer legend_split_behavior="0" expanded="1" name="Survey" checked="Qt::Checked" patch_size="-1,-1" providerKey="ogr" legend_exp="" source="./data.gpkg|layername=Survey_9c04d9a3_ae21_4b4a_b566_d25c84fcad4e|option:QGIS_FORCE_WAL=ON" id="Survey_9c04d9a3_ae21_4b4a_b566_d25c84fcad4e">
+    <layer-tree-layer legend_split_behavior="0" expanded="1" name="Survey" checked="Qt::Checked" patch_size="-1,-1" providerKey="ogr" legend_exp="" source="C:/Users/claire.lush/OneDrive - Idox Software Ltd/ESDM - JNCC Seabirds at Sea app/Development/VSAS.gpkg|layername=Survey" id="Survey_9c04d9a3_ae21_4b4a_b566_d25c84fcad4e">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer legend_split_behavior="0" expanded="1" name="Trip Details" checked="Qt::Checked" patch_size="-1,-1" providerKey="ogr" legend_exp="" source="./data.gpkg|layername=TripDetails_fe77811d_e79b_40c4_8730_efab761572f4|option:QGIS_FORCE_WAL=ON" id="TripDetails_fe77811d_e79b_40c4_8730_efab761572f4">
+    <layer-tree-layer legend_split_behavior="0" expanded="1" name="Trip Details" checked="Qt::Checked" patch_size="-1,-1" providerKey="ogr" legend_exp="" source="C:/Users/claire.lush/OneDrive - Idox Software Ltd/ESDM - JNCC Seabirds at Sea app/Development/VSAS.gpkg|layername=TripDetails" id="TripDetails_fe77811d_e79b_40c4_8730_efab761572f4">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer legend_split_behavior="0" expanded="1" name="Environmental Conditions" checked="Qt::Checked" patch_size="-1,-1" providerKey="ogr" legend_exp="" source="./data.gpkg|layername=EnvConditions_16aa505f_c027_4e96_a5ad_e251d45ccd05|option:QGIS_FORCE_WAL=ON" id="EnvConditions_16aa505f_c027_4e96_a5ad_e251d45ccd05">
+    <layer-tree-layer legend_split_behavior="0" expanded="1" name="Environmental Conditions" checked="Qt::Checked" patch_size="-1,-1" providerKey="ogr" legend_exp="" source="C:/Users/claire.lush/OneDrive - Idox Software Ltd/ESDM - JNCC Seabirds at Sea app/Development/VSAS.gpkg|layername=EnvConditions" id="EnvConditions_16aa505f_c027_4e96_a5ad_e251d45ccd05">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer legend_split_behavior="0" expanded="0" name="Start / Stop Survey" checked="Qt::Checked" patch_size="-1,-1" providerKey="ogr" legend_exp="" source="./data.gpkg|layername=SurveyStartStop_164d110d_85c2_4f4f_8e65_c79b8463e531|option:QGIS_FORCE_WAL=ON" id="SurveyStartStop_164d110d_85c2_4f4f_8e65_c79b8463e531">
+    <layer-tree-layer legend_split_behavior="0" expanded="0" name="Start / Stop Survey" checked="Qt::Checked" patch_size="-1,-1" providerKey="ogr" legend_exp="" source="C:/Users/claire.lush/OneDrive - Idox Software Ltd/ESDM - JNCC Seabirds at Sea app/Development/VSAS.gpkg|layername=SurveyStartStop" id="SurveyStartStop_164d110d_85c2_4f4f_8e65_c79b8463e531">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer legend_split_behavior="0" expanded="0" name="Observations" checked="Qt::Checked" patch_size="-1,-1" providerKey="ogr" legend_exp="" source="./data.gpkg|layername=Observations_cd80cc03_97df_4b13_989e_4f8f70d909ea|option:QGIS_FORCE_WAL=ON" id="Observations_cd80cc03_97df_4b13_989e_4f8f70d909ea">
+    <layer-tree-layer legend_split_behavior="0" expanded="0" name="Observations" checked="Qt::Checked" patch_size="-1,-1" providerKey="ogr" legend_exp="" source="C:/Users/claire.lush/OneDrive - Idox Software Ltd/ESDM - JNCC Seabirds at Sea app/Development/VSAS.gpkg|layername=Observations" id="Observations_cd80cc03_97df_4b13_989e_4f8f70d909ea">
       <customproperties>
         <Option/>
       </customproperties>
@@ -275,7 +275,7 @@
   <projectlayers>
     <maplayer labelsEnabled="0" autoRefreshTime="0" type="vector" symbologyReferenceScale="-1" styleCategories="AllStyleCategories" simplifyMaxScale="1" readOnly="0" wkbType="Point" legendPlaceholderImage="" simplifyAlgorithm="0" autoRefreshEnabled="0" maxScale="0" minScale="100000000" simplifyDrawingHints="0" geometry="Point" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" simplifyLocal="1">
       <id>EnvConditions_16aa505f_c027_4e96_a5ad_e251d45ccd05</id>
-      <datasource>./data.gpkg|layername=EnvConditions_16aa505f_c027_4e96_a5ad_e251d45ccd05|option:QGIS_FORCE_WAL=ON</datasource>
+      <datasource>C:/Users/claire.lush/OneDrive - Idox Software Ltd/ESDM - JNCC Seabirds at Sea app/Development/VSAS.gpkg|layername=EnvConditions</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -298,7 +298,7 @@
         <parentidentifier></parentidentifier>
         <language></language>
         <type>dataset</type>
-        <title>EnvConditions_16aa505f_c027_4e96_a5ad_e251d45ccd05 (offline)</title>
+        <title></title>
         <abstract></abstract>
         <contact>
           <name></name>
@@ -553,11 +553,6 @@
             <Option value="&quot;survey_id&quot;" type="QString"/>
           </Option>
           <Option name="embeddedWidgets/count" value="0" type="int"/>
-          <Option name="isOfflineEditable" value="true" type="bool"/>
-          <Option name="layerNameSuffix" value="" type="QString"/>
-          <Option name="remoteLayerId" value="EnvConditions_16aa505f_c027_4e96_a5ad_e251d45ccd05" type="QString"/>
-          <Option name="remoteProvider" value="ogr" type="QString"/>
-          <Option name="remoteSource" value="C:/Users/claire.lush/OneDrive - Idox Software Ltd/ESDM - JNCC Seabirds at Sea app/Development/VSAS.gpkg|layername=EnvConditions" type="QString"/>
           <Option name="variableNames" type="invalid"/>
           <Option name="variableValues" type="invalid"/>
         </Option>
@@ -636,13 +631,6 @@
       <legend type="default-vector" showLabelLegend="0"/>
       <referencedLayers/>
       <fieldConfiguration>
-        <field name="fid_1" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
         <field name="fid" configurationFlags="None">
           <editWidget type="TextEdit">
             <config>
@@ -975,30 +963,28 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias field="fid_1" name="" index="0"/>
-        <alias field="fid" name="" index="1"/>
-        <alias field="survey_id" name="Survey ID" index="2"/>
-        <alias field="env" name="Env Condition No." index="3"/>
-        <alias field="wind_force" name="Wind Force" index="4"/>
-        <alias field="wind_dir" name="Wind Direction" index="5"/>
-        <alias field="sea_state" name="Sea State" index="6"/>
-        <alias field="swell_height" name="Swell Height" index="7"/>
-        <alias field="visibility" name="Visibility" index="8"/>
-        <alias field="cloud_cover" name="Cloud Cover" index="9"/>
-        <alias field="precipitat" name="Precipitation" index="10"/>
-        <alias field="sun_angle" name="Sun Angle" index="11"/>
-        <alias field="glare" name="Glare" index="12"/>
-        <alias field="datetime" name="" index="13"/>
-        <alias field="date" name="" index="14"/>
-        <alias field="hours" name="" index="15"/>
-        <alias field="minute" name="" index="16"/>
-        <alias field="seconds" name="" index="17"/>
-        <alias field="X" name="Longitude" index="18"/>
-        <alias field="Y" name="Latitude" index="19"/>
-        <alias field="timezone" name="" index="20"/>
+        <alias field="fid" name="" index="0"/>
+        <alias field="survey_id" name="Survey ID" index="1"/>
+        <alias field="env" name="Env Condition No." index="2"/>
+        <alias field="wind_force" name="Wind Force" index="3"/>
+        <alias field="wind_dir" name="Wind Direction" index="4"/>
+        <alias field="sea_state" name="Sea State" index="5"/>
+        <alias field="swell_height" name="Swell Height" index="6"/>
+        <alias field="visibility" name="Visibility" index="7"/>
+        <alias field="cloud_cover" name="Cloud Cover" index="8"/>
+        <alias field="precipitat" name="Precipitation" index="9"/>
+        <alias field="sun_angle" name="Sun Angle" index="10"/>
+        <alias field="glare" name="Glare" index="11"/>
+        <alias field="datetime" name="" index="12"/>
+        <alias field="date" name="" index="13"/>
+        <alias field="hours" name="" index="14"/>
+        <alias field="minute" name="" index="15"/>
+        <alias field="seconds" name="" index="16"/>
+        <alias field="X" name="Longitude" index="17"/>
+        <alias field="Y" name="Latitude" index="18"/>
+        <alias field="timezone" name="" index="19"/>
       </aliases>
       <splitPolicies>
-        <policy field="fid_1" policy="Duplicate"/>
         <policy field="fid" policy="Duplicate"/>
         <policy field="survey_id" policy="DefaultValue"/>
         <policy field="env" policy="DefaultValue"/>
@@ -1021,7 +1007,6 @@
         <policy field="timezone" policy="Duplicate"/>
       </splitPolicies>
       <defaults>
-        <default field="fid_1" expression="" applyOnUpdate="0"/>
         <default field="fid" expression="" applyOnUpdate="0"/>
         <default field="survey_id" expression="if(&quot;survey_id&quot; IS NULL, attributes(get_feature('Survey_9c04d9a3_ae21_4b4a_b566_d25c84fcad4e','survey_date', aggregate( layer:='Survey_9c04d9a3_ae21_4b4a_b566_d25c84fcad4e', &#xd;&#xa;aggregate:='max', &#xd;&#xa;expression:=&quot;survey_date&quot;,&#xd;&#xa;filter:=&quot;survey_id&quot; IS NOT NULL AND left(&quot;survey_date&quot;,10)=format_date(now(),'yyyy-MM-dd'))))['survey_id'],&quot;survey_id&quot;)" applyOnUpdate="1"/>
         <default field="env" expression="if(&quot;survey_id&quot; is not NULL, if(&quot;env&quot; IS NULL, if(maximum(&quot;env&quot;,group_by:=&quot;survey_id&quot;) IS NULL, 1, maximum(&quot;env&quot;,group_by:=&quot;survey_id&quot;)+1) ,&quot;env&quot;),&quot;env&quot;)" applyOnUpdate="1"/>
@@ -1044,8 +1029,7 @@
         <default field="timezone" expression=" format_date( now(),'t')" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint field="fid_1" unique_strength="1" constraints="3" notnull_strength="1" exp_strength="0"/>
-        <constraint field="fid" unique_strength="1" constraints="2" notnull_strength="0" exp_strength="0"/>
+        <constraint field="fid" unique_strength="1" constraints="3" notnull_strength="1" exp_strength="0"/>
         <constraint field="survey_id" unique_strength="0" constraints="1" notnull_strength="1" exp_strength="0"/>
         <constraint field="env" unique_strength="0" constraints="5" notnull_strength="1" exp_strength="1"/>
         <constraint field="wind_force" unique_strength="0" constraints="1" notnull_strength="1" exp_strength="0"/>
@@ -1067,7 +1051,6 @@
         <constraint field="timezone" unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="fid_1" desc="" exp=""/>
         <constraint field="fid" desc="" exp=""/>
         <constraint field="survey_id" desc="" exp=""/>
         <constraint field="env" desc="Must be unique within survey" exp="count( &quot;env&quot;, filter:=&quot;env&quot;=current_value(&quot;env&quot;) and &quot;survey_id&quot; = current_value(&quot;survey_id&quot;)) &lt;= 1"/>
@@ -1651,7 +1634,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer labelsEnabled="0" autoRefreshTime="0" type="vector" symbologyReferenceScale="-1" styleCategories="AllStyleCategories" simplifyMaxScale="1" readOnly="0" wkbType="Point" legendPlaceholderImage="" simplifyAlgorithm="0" autoRefreshEnabled="0" maxScale="0" minScale="100000000" simplifyDrawingHints="0" geometry="Point" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" simplifyLocal="1">
       <id>Observations_cd80cc03_97df_4b13_989e_4f8f70d909ea</id>
-      <datasource>./data.gpkg|layername=Observations_cd80cc03_97df_4b13_989e_4f8f70d909ea|option:QGIS_FORCE_WAL=ON</datasource>
+      <datasource>C:/Users/claire.lush/OneDrive - Idox Software Ltd/ESDM - JNCC Seabirds at Sea app/Development/VSAS.gpkg|layername=Observations</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1674,7 +1657,7 @@ def my_form_open(dialog, layer, feature):
         <parentidentifier></parentidentifier>
         <language></language>
         <type>dataset</type>
-        <title>Observations_cd80cc03_97df_4b13_989e_4f8f70d909ea (offline)</title>
+        <title></title>
         <abstract></abstract>
         <contact>
           <name></name>
@@ -2422,11 +2405,6 @@ def my_form_open(dialog, layer, feature):
             <Option value="&quot;species_group&quot;" type="QString"/>
           </Option>
           <Option name="embeddedWidgets/count" value="0" type="int"/>
-          <Option name="isOfflineEditable" value="true" type="bool"/>
-          <Option name="layerNameSuffix" value="" type="QString"/>
-          <Option name="remoteLayerId" value="Observations_cd80cc03_97df_4b13_989e_4f8f70d909ea" type="QString"/>
-          <Option name="remoteProvider" value="ogr" type="QString"/>
-          <Option name="remoteSource" value="C:/Users/claire.lush/OneDrive - Idox Software Ltd/ESDM - JNCC Seabirds at Sea app/Development/VSAS.gpkg|layername=Observations" type="QString"/>
           <Option name="variableNames" type="invalid"/>
           <Option name="variableValues" type="invalid"/>
         </Option>
@@ -2505,13 +2483,6 @@ def my_form_open(dialog, layer, feature):
       <legend type="default-vector" showLabelLegend="0"/>
       <referencedLayers/>
       <fieldConfiguration>
-        <field name="fid_1" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
         <field name="fid" configurationFlags="None">
           <editWidget type="TextEdit">
             <config>
@@ -2929,36 +2900,34 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias field="fid_1" name="" index="0"/>
-        <alias field="fid" name="" index="1"/>
-        <alias field="survey_id" name="Survey ID" index="2"/>
-        <alias field="count" name="Count" index="3"/>
-        <alias field="species_group" name="Group" index="4"/>
-        <alias field="speccode" name="Species" index="5"/>
-        <alias field="band" name="Band" index="6"/>
-        <alias field="transect" name="In Transect?" index="7"/>
-        <alias field="life_stage" name="Life Stage" index="8"/>
-        <alias field="plumage" name="Plumage" index="9"/>
-        <alias field="moult" name="Primary Moult?" index="10"/>
-        <alias field="sex" name="Sex" index="11"/>
-        <alias field="direction" name="Direction" index="12"/>
-        <alias field="behaviour" name="Behaviour" index="13"/>
-        <alias field="association" name="Interacting with" index="14"/>
-        <alias field="assoc_next_rec" name="Associated with next record?" index="15"/>
-        <alias field="notes" name="Notes" index="16"/>
-        <alias field="datetime" name="" index="17"/>
-        <alias field="date" name="" index="18"/>
-        <alias field="hour" name="" index="19"/>
-        <alias field="minute" name="" index="20"/>
-        <alias field="seconds" name="" index="21"/>
-        <alias field="X" name="Longitude" index="22"/>
-        <alias field="Y" name="Latitude" index="23"/>
-        <alias field="timezone" name="" index="24"/>
-        <alias field="range" name="Range" index="25"/>
-        <alias field="bearing" name="Bearing" index="26"/>
+        <alias field="fid" name="" index="0"/>
+        <alias field="survey_id" name="Survey ID" index="1"/>
+        <alias field="count" name="Count" index="2"/>
+        <alias field="species_group" name="Group" index="3"/>
+        <alias field="speccode" name="Species" index="4"/>
+        <alias field="band" name="Band" index="5"/>
+        <alias field="transect" name="In Transect?" index="6"/>
+        <alias field="life_stage" name="Life Stage" index="7"/>
+        <alias field="plumage" name="Plumage" index="8"/>
+        <alias field="moult" name="Primary Moult?" index="9"/>
+        <alias field="sex" name="Sex" index="10"/>
+        <alias field="direction" name="Direction" index="11"/>
+        <alias field="behaviour" name="Behaviour" index="12"/>
+        <alias field="association" name="Interacting with" index="13"/>
+        <alias field="assoc_next_rec" name="Associated with next record?" index="14"/>
+        <alias field="notes" name="Notes" index="15"/>
+        <alias field="datetime" name="" index="16"/>
+        <alias field="date" name="" index="17"/>
+        <alias field="hour" name="" index="18"/>
+        <alias field="minute" name="" index="19"/>
+        <alias field="seconds" name="" index="20"/>
+        <alias field="X" name="Longitude" index="21"/>
+        <alias field="Y" name="Latitude" index="22"/>
+        <alias field="timezone" name="" index="23"/>
+        <alias field="range" name="Range" index="24"/>
+        <alias field="bearing" name="Bearing" index="25"/>
       </aliases>
       <splitPolicies>
-        <policy field="fid_1" policy="Duplicate"/>
         <policy field="fid" policy="Duplicate"/>
         <policy field="survey_id" policy="DefaultValue"/>
         <policy field="count" policy="DefaultValue"/>
@@ -2987,7 +2956,6 @@ def my_form_open(dialog, layer, feature):
         <policy field="bearing" policy="DefaultValue"/>
       </splitPolicies>
       <defaults>
-        <default field="fid_1" expression="" applyOnUpdate="0"/>
         <default field="fid" expression="" applyOnUpdate="0"/>
         <default field="survey_id" expression="if(&quot;survey_id&quot; IS NULL, attributes(get_feature('Survey_9c04d9a3_ae21_4b4a_b566_d25c84fcad4e','survey_date', aggregate( layer:='Survey_9c04d9a3_ae21_4b4a_b566_d25c84fcad4e', &#xd;&#xa;aggregate:='max', &#xd;&#xa;expression:=&quot;survey_date&quot;,&#xd;&#xa;filter:=&quot;survey_id&quot; IS NOT NULL AND LEFT(&quot;survey_date&quot;,10)=format_date(now(),'yyyy-MM-dd'))))['survey_id'],&quot;survey_id&quot;)" applyOnUpdate="1"/>
         <default field="count" expression="0" applyOnUpdate="0"/>
@@ -3016,8 +2984,7 @@ def my_form_open(dialog, layer, feature):
         <default field="bearing" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint field="fid_1" unique_strength="1" constraints="3" notnull_strength="1" exp_strength="0"/>
-        <constraint field="fid" unique_strength="1" constraints="2" notnull_strength="0" exp_strength="0"/>
+        <constraint field="fid" unique_strength="1" constraints="3" notnull_strength="1" exp_strength="0"/>
         <constraint field="survey_id" unique_strength="0" constraints="1" notnull_strength="1" exp_strength="0"/>
         <constraint field="count" unique_strength="0" constraints="5" notnull_strength="1" exp_strength="1"/>
         <constraint field="species_group" unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0"/>
@@ -3045,7 +3012,6 @@ def my_form_open(dialog, layer, feature):
         <constraint field="bearing" unique_strength="0" constraints="4" notnull_strength="0" exp_strength="1"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="fid_1" desc="" exp=""/>
         <constraint field="fid" desc="" exp=""/>
         <constraint field="survey_id" desc="" exp=""/>
         <constraint field="count" desc="Must be > 0" exp="&quot;count&quot; > 0"/>
@@ -3369,7 +3335,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer labelsEnabled="0" autoRefreshTime="0" type="vector" symbologyReferenceScale="-1" styleCategories="AllStyleCategories" simplifyMaxScale="1" readOnly="0" wkbType="Point" legendPlaceholderImage="" simplifyAlgorithm="0" autoRefreshEnabled="0" maxScale="0" minScale="100000000" simplifyDrawingHints="0" geometry="Point" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" simplifyLocal="1">
       <id>SurveyStartStop_164d110d_85c2_4f4f_8e65_c79b8463e531</id>
-      <datasource>./data.gpkg|layername=SurveyStartStop_164d110d_85c2_4f4f_8e65_c79b8463e531|option:QGIS_FORCE_WAL=ON</datasource>
+      <datasource>C:/Users/claire.lush/OneDrive - Idox Software Ltd/ESDM - JNCC Seabirds at Sea app/Development/VSAS.gpkg|layername=SurveyStartStop</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3392,7 +3358,7 @@ def my_form_open(dialog, layer, feature):
         <parentidentifier></parentidentifier>
         <language></language>
         <type>dataset</type>
-        <title>SurveyStartStop_164d110d_85c2_4f4f_8e65_c79b8463e531 (offline)</title>
+        <title></title>
         <abstract></abstract>
         <contact>
           <name></name>
@@ -3793,11 +3759,6 @@ def my_form_open(dialog, layer, feature):
             <Option value="&quot;survey_route&quot;" type="QString"/>
           </Option>
           <Option name="embeddedWidgets/count" value="0" type="int"/>
-          <Option name="isOfflineEditable" value="true" type="bool"/>
-          <Option name="layerNameSuffix" value="" type="QString"/>
-          <Option name="remoteLayerId" value="SurveyStartStop_164d110d_85c2_4f4f_8e65_c79b8463e531" type="QString"/>
-          <Option name="remoteProvider" value="ogr" type="QString"/>
-          <Option name="remoteSource" value="C:/Users/claire.lush/OneDrive - Idox Software Ltd/ESDM - JNCC Seabirds at Sea app/Development/VSAS.gpkg|layername=SurveyStartStop" type="QString"/>
           <Option name="variableNames" type="invalid"/>
           <Option name="variableValues" type="invalid"/>
         </Option>
@@ -3876,13 +3837,6 @@ def my_form_open(dialog, layer, feature):
       <legend type="default-vector" showLabelLegend="0"/>
       <referencedLayers/>
       <fieldConfiguration>
-        <field name="fid_1" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
         <field name="fid" configurationFlags="None">
           <editWidget type="TextEdit">
             <config>
@@ -3952,15 +3906,13 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias field="fid_1" name="" index="0"/>
-        <alias field="fid" name="" index="1"/>
-        <alias field="survey_id" name="Survey ID" index="2"/>
-        <alias field="node_type" name="Node Type" index="3"/>
-        <alias field="timestamp" name="Time" index="4"/>
-        <alias field="survey_name" name="" index="5"/>
+        <alias field="fid" name="" index="0"/>
+        <alias field="survey_id" name="Survey ID" index="1"/>
+        <alias field="node_type" name="Node Type" index="2"/>
+        <alias field="timestamp" name="Time" index="3"/>
+        <alias field="survey_name" name="" index="4"/>
       </aliases>
       <splitPolicies>
-        <policy field="fid_1" policy="Duplicate"/>
         <policy field="fid" policy="Duplicate"/>
         <policy field="survey_id" policy="DefaultValue"/>
         <policy field="node_type" policy="DefaultValue"/>
@@ -3968,7 +3920,6 @@ def my_form_open(dialog, layer, feature):
         <policy field="survey_name" policy="DefaultValue"/>
       </splitPolicies>
       <defaults>
-        <default field="fid_1" expression="" applyOnUpdate="0"/>
         <default field="fid" expression="" applyOnUpdate="0"/>
         <default field="survey_id" expression="if(survey_id IS NULL, attributes(get_feature('Survey_9c04d9a3_ae21_4b4a_b566_d25c84fcad4e','survey_date', aggregate( layer:='Survey_9c04d9a3_ae21_4b4a_b566_d25c84fcad4e', &#xd;&#xa;aggregate:='max', &#xd;&#xa;expression:=&quot;survey_date&quot;,&#xd;&#xa;filter:=&quot;survey_id&quot; IS NOT NULL AND left(&quot;survey_date&quot;,10)=format_date(now(),'yyyy-MM-dd'))))['survey_id'],&quot;survey_id&quot;)" applyOnUpdate="1"/>
         <default field="node_type" expression="if(&quot;survey_id&quot; is not NULL, if(count('node_type',group_by:=&quot;survey_id&quot;, filter:=&quot;node_type&quot;='Start') = 0, 'Start', 'Stop'),&quot;node_type&quot;)" applyOnUpdate="1"/>
@@ -3976,15 +3927,13 @@ def my_form_open(dialog, layer, feature):
         <default field="survey_name" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint field="fid_1" unique_strength="1" constraints="3" notnull_strength="1" exp_strength="0"/>
-        <constraint field="fid" unique_strength="1" constraints="2" notnull_strength="0" exp_strength="0"/>
+        <constraint field="fid" unique_strength="1" constraints="3" notnull_strength="1" exp_strength="0"/>
         <constraint field="survey_id" unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0"/>
         <constraint field="node_type" unique_strength="0" constraints="1" notnull_strength="1" exp_strength="0"/>
         <constraint field="timestamp" unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0"/>
         <constraint field="survey_name" unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="fid_1" desc="" exp=""/>
         <constraint field="fid" desc="" exp=""/>
         <constraint field="survey_id" desc="" exp=""/>
         <constraint field="node_type" desc="" exp=""/>
@@ -4100,7 +4049,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer labelsEnabled="0" autoRefreshTime="0" type="vector" symbologyReferenceScale="-1" styleCategories="AllStyleCategories" simplifyMaxScale="1" readOnly="0" wkbType="Point" legendPlaceholderImage="" simplifyAlgorithm="0" autoRefreshEnabled="0" maxScale="0" minScale="100000000" simplifyDrawingHints="0" geometry="Point" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" simplifyLocal="1">
       <id>Survey_9c04d9a3_ae21_4b4a_b566_d25c84fcad4e</id>
-      <datasource>./data.gpkg|layername=Survey_9c04d9a3_ae21_4b4a_b566_d25c84fcad4e|option:QGIS_FORCE_WAL=ON</datasource>
+      <datasource>C:/Users/claire.lush/OneDrive - Idox Software Ltd/ESDM - JNCC Seabirds at Sea app/Development/VSAS.gpkg|layername=Survey</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4123,7 +4072,7 @@ def my_form_open(dialog, layer, feature):
         <parentidentifier></parentidentifier>
         <language></language>
         <type>dataset</type>
-        <title>Survey_9c04d9a3_ae21_4b4a_b566_d25c84fcad4e (offline)</title>
+        <title></title>
         <abstract></abstract>
         <contact>
           <name></name>
@@ -4380,11 +4329,6 @@ def my_form_open(dialog, layer, feature):
             <Option value="&quot;survey_route&quot;" type="QString"/>
           </Option>
           <Option name="embeddedWidgets/count" value="0" type="int"/>
-          <Option name="isOfflineEditable" value="true" type="bool"/>
-          <Option name="layerNameSuffix" value="" type="QString"/>
-          <Option name="remoteLayerId" value="Survey_9c04d9a3_ae21_4b4a_b566_d25c84fcad4e" type="QString"/>
-          <Option name="remoteProvider" value="ogr" type="QString"/>
-          <Option name="remoteSource" value="C:/Users/claire.lush/OneDrive - Idox Software Ltd/ESDM - JNCC Seabirds at Sea app/Development/VSAS.gpkg|layername=Survey" type="QString"/>
           <Option name="variableNames" type="invalid"/>
           <Option name="variableValues" type="invalid"/>
         </Option>
@@ -4463,13 +4407,6 @@ def my_form_open(dialog, layer, feature):
       <legend type="default-vector" showLabelLegend="0"/>
       <referencedLayers/>
       <fieldConfiguration>
-        <field name="fid_1" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
         <field name="fid" configurationFlags="None">
           <editWidget type="TextEdit">
             <config>
@@ -4505,22 +4442,11 @@ def my_form_open(dialog, layer, feature):
           </editWidget>
         </field>
         <field name="survey_id" configurationFlags="None">
-          <editWidget type="ValueRelation">
+          <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="AllowMulti" value="false" type="bool"/>
-                <Option name="AllowNull" value="false" type="bool"/>
-                <Option name="Description" value="" type="QString"/>
-                <Option name="FilterExpression" value="&quot;survey_id&quot; IS NOT NULL AND left(&quot;survey_date&quot;,10)=format_date(now(),'yyyy-MM-dd')" type="QString"/>
-                <Option name="Key" value="survey_id" type="QString"/>
-                <Option name="Layer" value="Survey_9c04d9a3_ae21_4b4a_b566_d25c84fcad4e" type="QString"/>
-                <Option name="LayerName" value="Survey" type="QString"/>
-                <Option name="LayerProviderName" value="ogr" type="QString"/>
-                <Option name="LayerSource" value="C:/Users/claire.lush/OneDrive - Idox Software Ltd/ESDM - JNCC Seabirds at Sea app/Development/VSAS.gpkg|layername=Survey" type="QString"/>
-                <Option name="NofColumns" value="1" type="int"/>
-                <Option name="OrderByValue" value="false" type="bool"/>
-                <Option name="UseCompleter" value="false" type="bool"/>
-                <Option name="Value" value="survey_name" type="QString"/>
+                <Option name="IsMultiline" value="false" type="bool"/>
+                <Option name="UseHtml" value="false" type="bool"/>
               </Option>
             </config>
           </editWidget>
@@ -4537,15 +4463,13 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias field="fid_1" name="" index="0"/>
-        <alias field="fid" name="" index="1"/>
-        <alias field="survey_route" name="Survey Route (e.g. Oban-Colonsay)" index="2"/>
-        <alias field="survey_date" name="" index="3"/>
-        <alias field="survey_id" name="" index="4"/>
-        <alias field="survey_name" name="" index="5"/>
+        <alias field="fid" name="" index="0"/>
+        <alias field="survey_route" name="Survey Route (e.g. Oban-Colonsay)" index="1"/>
+        <alias field="survey_date" name="" index="2"/>
+        <alias field="survey_id" name="" index="3"/>
+        <alias field="survey_name" name="" index="4"/>
       </aliases>
       <splitPolicies>
-        <policy field="fid_1" policy="Duplicate"/>
         <policy field="fid" policy="DefaultValue"/>
         <policy field="survey_route" policy="DefaultValue"/>
         <policy field="survey_date" policy="DefaultValue"/>
@@ -4553,7 +4477,6 @@ def my_form_open(dialog, layer, feature):
         <policy field="survey_name" policy="DefaultValue"/>
       </splitPolicies>
       <defaults>
-        <default field="fid_1" expression="" applyOnUpdate="0"/>
         <default field="fid" expression="" applyOnUpdate="0"/>
         <default field="survey_route" expression="" applyOnUpdate="0"/>
         <default field="survey_date" expression="now()" applyOnUpdate="0"/>
@@ -4561,15 +4484,13 @@ def my_form_open(dialog, layer, feature):
         <default field="survey_name" expression="now()" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint field="fid_1" unique_strength="1" constraints="3" notnull_strength="1" exp_strength="0"/>
-        <constraint field="fid" unique_strength="1" constraints="2" notnull_strength="0" exp_strength="0"/>
+        <constraint field="fid" unique_strength="1" constraints="3" notnull_strength="1" exp_strength="0"/>
         <constraint field="survey_route" unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0"/>
         <constraint field="survey_date" unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0"/>
         <constraint field="survey_id" unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0"/>
         <constraint field="survey_name" unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="fid_1" desc="" exp=""/>
         <constraint field="fid" desc="" exp=""/>
         <constraint field="survey_route" desc="" exp=""/>
         <constraint field="survey_date" desc="" exp=""/>
@@ -4666,7 +4587,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer labelsEnabled="0" autoRefreshTime="0" type="vector" symbologyReferenceScale="-1" styleCategories="AllStyleCategories" simplifyMaxScale="1" readOnly="0" wkbType="Point" legendPlaceholderImage="" simplifyAlgorithm="0" autoRefreshEnabled="0" maxScale="0" minScale="100000000" simplifyDrawingHints="0" geometry="Point" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" simplifyLocal="1">
       <id>TripDetails_fe77811d_e79b_40c4_8730_efab761572f4</id>
-      <datasource>./data.gpkg|layername=TripDetails_fe77811d_e79b_40c4_8730_efab761572f4|option:QGIS_FORCE_WAL=ON</datasource>
+      <datasource>C:/Users/claire.lush/OneDrive - Idox Software Ltd/ESDM - JNCC Seabirds at Sea app/Development/VSAS.gpkg|layername=TripDetails</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4689,7 +4610,7 @@ def my_form_open(dialog, layer, feature):
         <parentidentifier></parentidentifier>
         <language></language>
         <type>dataset</type>
-        <title>TripDetails_fe77811d_e79b_40c4_8730_efab761572f4 (offline)</title>
+        <title></title>
         <abstract></abstract>
         <contact>
           <name></name>
@@ -4944,11 +4865,6 @@ def my_form_open(dialog, layer, feature):
             <Option value="&quot;ship_name&quot;" type="QString"/>
           </Option>
           <Option name="embeddedWidgets/count" value="0" type="int"/>
-          <Option name="isOfflineEditable" value="true" type="bool"/>
-          <Option name="layerNameSuffix" value="" type="QString"/>
-          <Option name="remoteLayerId" value="TripDetails_fe77811d_e79b_40c4_8730_efab761572f4" type="QString"/>
-          <Option name="remoteProvider" value="ogr" type="QString"/>
-          <Option name="remoteSource" value="C:/Users/claire.lush/OneDrive - Idox Software Ltd/ESDM - JNCC Seabirds at Sea app/Development/VSAS.gpkg|layername=TripDetails" type="QString"/>
           <Option name="variableNames" type="invalid"/>
           <Option name="variableValues" type="invalid"/>
         </Option>
@@ -5027,13 +4943,6 @@ def my_form_open(dialog, layer, feature):
       <legend type="default-vector" showLabelLegend="0"/>
       <referencedLayers/>
       <fieldConfiguration>
-        <field name="fid_1" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
         <field name="fid" configurationFlags="None">
           <editWidget type="TextEdit">
             <config>
@@ -5433,33 +5342,31 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias field="fid_1" name="" index="0"/>
-        <alias field="fid" name="" index="1"/>
-        <alias field="survey_id" name="Survey ID" index="2"/>
-        <alias field="trip" name="Trip Number" index="3"/>
-        <alias field="base_activity" name="Base Activity" index="4"/>
-        <alias field="scan_angle" name="Scan Angle (Degrees)" index="5"/>
-        <alias field="transect_width" name="Transect Width (Metres)" index="6"/>
-        <alias field="num_observers" name="No. of Observers" index="7"/>
-        <alias field="target_taxa" name="Target Taxa" index="8"/>
-        <alias field="ship_name" name="Ship Name" index="9"/>
-        <alias field="platform_height" name="Platform Height (Metres)" index="10"/>
-        <alias field="platform_side" name="Platform Side" index="11"/>
-        <alias field="sampling_method" name="Sampling Method" index="12"/>
-        <alias field="use_of_binoculars" name="Use of Binoculars" index="13"/>
-        <alias field="visible_horizon" name="Is the horizon visible?" index="14"/>
-        <alias field="notes" name="Notes" index="15"/>
-        <alias field="datetime" name="" index="16"/>
-        <alias field="year" name="" index="17"/>
-        <alias field="month" name="" index="18"/>
-        <alias field="day" name="" index="19"/>
-        <alias field="time" name="" index="20"/>
-        <alias field="latitude" name="Latitude " index="21"/>
-        <alias field="longitude" name="Longitude" index="22"/>
-        <alias field="timezone" name="" index="23"/>
+        <alias field="fid" name="" index="0"/>
+        <alias field="survey_id" name="Survey ID" index="1"/>
+        <alias field="trip" name="Trip Number" index="2"/>
+        <alias field="base_activity" name="Base Activity" index="3"/>
+        <alias field="scan_angle" name="Scan Angle (Degrees)" index="4"/>
+        <alias field="transect_width" name="Transect Width (Metres)" index="5"/>
+        <alias field="num_observers" name="No. of Observers" index="6"/>
+        <alias field="target_taxa" name="Target Taxa" index="7"/>
+        <alias field="ship_name" name="Ship Name" index="8"/>
+        <alias field="platform_height" name="Platform Height (Metres)" index="9"/>
+        <alias field="platform_side" name="Platform Side" index="10"/>
+        <alias field="sampling_method" name="Sampling Method" index="11"/>
+        <alias field="use_of_binoculars" name="Use of Binoculars" index="12"/>
+        <alias field="visible_horizon" name="Is the horizon visible?" index="13"/>
+        <alias field="notes" name="Notes" index="14"/>
+        <alias field="datetime" name="" index="15"/>
+        <alias field="year" name="" index="16"/>
+        <alias field="month" name="" index="17"/>
+        <alias field="day" name="" index="18"/>
+        <alias field="time" name="" index="19"/>
+        <alias field="latitude" name="Latitude " index="20"/>
+        <alias field="longitude" name="Longitude" index="21"/>
+        <alias field="timezone" name="" index="22"/>
       </aliases>
       <splitPolicies>
-        <policy field="fid_1" policy="Duplicate"/>
         <policy field="fid" policy="Duplicate"/>
         <policy field="survey_id" policy="DefaultValue"/>
         <policy field="trip" policy="DefaultValue"/>
@@ -5485,7 +5392,6 @@ def my_form_open(dialog, layer, feature):
         <policy field="timezone" policy="Duplicate"/>
       </splitPolicies>
       <defaults>
-        <default field="fid_1" expression="" applyOnUpdate="0"/>
         <default field="fid" expression="" applyOnUpdate="0"/>
         <default field="survey_id" expression="if(&quot;survey_id&quot; IS NULL, attributes(get_feature('Survey_9c04d9a3_ae21_4b4a_b566_d25c84fcad4e','survey_date', aggregate( layer:='Survey_9c04d9a3_ae21_4b4a_b566_d25c84fcad4e', &#xd;&#xa;aggregate:='max', &#xd;&#xa;expression:=&quot;survey_date&quot;,&#xd;&#xa;filter:=&quot;survey_id&quot; IS NOT NULL AND left(&quot;survey_date&quot;,10)=format_date(now(),'yyyy-MM-dd'))))['survey_id'],&quot;survey_id&quot;)" applyOnUpdate="1"/>
         <default field="trip" expression="if(&quot;survey_id&quot; is not NULL, if(&quot;trip&quot; IS NULL, if(maximum(&quot;trip&quot;,group_by:=&quot;survey_id&quot;) IS NULL, 1, maximum(&quot;trip&quot;,group_by:=&quot;survey_id&quot;)+1) ,&quot;trip&quot;),&quot;trip&quot;)" applyOnUpdate="1"/>
@@ -5511,8 +5417,7 @@ def my_form_open(dialog, layer, feature):
         <default field="timezone" expression=" format_date( now(),'t')" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint field="fid_1" unique_strength="1" constraints="3" notnull_strength="1" exp_strength="0"/>
-        <constraint field="fid" unique_strength="1" constraints="2" notnull_strength="0" exp_strength="0"/>
+        <constraint field="fid" unique_strength="1" constraints="3" notnull_strength="1" exp_strength="0"/>
         <constraint field="survey_id" unique_strength="0" constraints="1" notnull_strength="1" exp_strength="0"/>
         <constraint field="trip" unique_strength="0" constraints="5" notnull_strength="1" exp_strength="1"/>
         <constraint field="base_activity" unique_strength="0" constraints="1" notnull_strength="1" exp_strength="0"/>
@@ -5537,7 +5442,6 @@ def my_form_open(dialog, layer, feature):
         <constraint field="timezone" unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="fid_1" desc="" exp=""/>
         <constraint field="fid" desc="" exp=""/>
         <constraint field="survey_id" desc="" exp=""/>
         <constraint field="trip" desc="Trip number must be unique within survey" exp="count( &quot;trip&quot;, filter:=&quot;trip&quot;=current_value(&quot;trip&quot;) and &quot;survey_id&quot; = current_value(&quot;survey_id&quot;)) &lt;= 1"/>
@@ -6403,23 +6307,9 @@ def my_form_open(dialog, layer, feature):
           </editWidget>
         </field>
         <field name="band" configurationFlags="None">
-          <editWidget type="ValueRelation">
+          <editWidget type="TextEdit">
             <config>
-              <Option type="Map">
-                <Option name="AllowMulti" value="false" type="bool"/>
-                <Option name="AllowNull" value="true" type="bool"/>
-                <Option name="Description" value="" type="QString"/>
-                <Option name="FilterExpression" value=" &quot;speccode&quot; IS NULL or &quot;speccode&quot; = current_value('speccode')" type="QString"/>
-                <Option name="Key" value="band" type="QString"/>
-                <Option name="Layer" value="band_lut_5bc21ae7_a174_4a15_b463_1bd29cc84c41" type="QString"/>
-                <Option name="LayerName" value="Band_LUT" type="QString"/>
-                <Option name="LayerProviderName" value="ogr" type="QString"/>
-                <Option name="LayerSource" value="C:/Users/claire.lush/OneDrive - Idox Software Ltd/ESDM - JNCC Seabirds at Sea app/Development/VSAS_LUTs.gpkg|layername=band_lut" type="QString"/>
-                <Option name="NofColumns" value="1" type="int"/>
-                <Option name="OrderByValue" value="false" type="bool"/>
-                <Option name="UseCompleter" value="false" type="bool"/>
-                <Option name="Value" value="band" type="QString"/>
-              </Option>
+              <Option/>
             </config>
           </editWidget>
         </field>
@@ -7412,23 +7302,9 @@ def my_form_open(dialog, layer, feature):
           </editWidget>
         </field>
         <field name="plumage" configurationFlags="None">
-          <editWidget type="ValueRelation">
+          <editWidget type="">
             <config>
-              <Option type="Map">
-                <Option name="AllowMulti" value="false" type="bool"/>
-                <Option name="AllowNull" value="true" type="bool"/>
-                <Option name="Description" value="" type="QString"/>
-                <Option name="FilterExpression" value="&quot;species_code&quot; = current_value('speccode')" type="QString"/>
-                <Option name="Key" value="plumage" type="QString"/>
-                <Option name="Layer" value="plumage_0de9af81_73b3_4ce3_bba2_1fe03dc0cad8" type="QString"/>
-                <Option name="LayerName" value="Plumage_LUT" type="QString"/>
-                <Option name="LayerProviderName" value="ogr" type="QString"/>
-                <Option name="LayerSource" value="C:/Users/claire.lush/OneDrive - Idox Software Ltd/ESDM - JNCC Seabirds at Sea app/Development/VSAS_LUTs.gpkg|layername=plumage" type="QString"/>
-                <Option name="NofColumns" value="1" type="int"/>
-                <Option name="OrderByValue" value="false" type="bool"/>
-                <Option name="UseCompleter" value="false" type="bool"/>
-                <Option name="Value" value="descr" type="QString"/>
-              </Option>
+              <Option/>
             </config>
           </editWidget>
         </field>
@@ -8468,23 +8344,9 @@ def my_form_open(dialog, layer, feature):
           </editWidget>
         </field>
         <field name="transect" configurationFlags="None">
-          <editWidget type="ValueRelation">
+          <editWidget type="TextEdit">
             <config>
-              <Option type="Map">
-                <Option name="AllowMulti" value="false" type="bool"/>
-                <Option name="AllowNull" value="false" type="bool"/>
-                <Option name="Description" value="" type="QString"/>
-                <Option name="FilterExpression" value="&quot;band&quot; = current_value('band')" type="QString"/>
-                <Option name="Key" value="transect" type="QString"/>
-                <Option name="Layer" value="transect_lut_9203abff_58c9_465a_9ba0_f0e418136af7" type="QString"/>
-                <Option name="LayerName" value="Transect_LUT" type="QString"/>
-                <Option name="LayerProviderName" value="ogr" type="QString"/>
-                <Option name="LayerSource" value="C:/Users/claire.lush/OneDrive - Idox Software Ltd/ESDM - JNCC Seabirds at Sea app/Development/VSAS_LUTs.gpkg|layername=transect_lut" type="QString"/>
-                <Option name="NofColumns" value="1" type="int"/>
-                <Option name="OrderByValue" value="true" type="bool"/>
-                <Option name="UseCompleter" value="false" type="bool"/>
-                <Option name="Value" value="transect_disp" type="QString"/>
-              </Option>
+              <Option/>
             </config>
           </editWidget>
         </field>
@@ -8625,9 +8487,6 @@ def my_form_open(dialog, layer, feature):
       <AreaUnits type="QString">m2</AreaUnits>
       <DistanceUnits type="QString">meters</DistanceUnits>
     </Measurement>
-    <OfflineEditingPlugin>
-      <OfflineDbPath type="QString">./data.gpkg</OfflineDbPath>
-    </OfflineEditingPlugin>
     <PAL>
       <CandidatesLinePerCM type="double">5</CandidatesLinePerCM>
       <CandidatesPolygonPerCM type="double">2.5</CandidatesPolygonPerCM>
@@ -8776,7 +8635,7 @@ def my_form_open(dialog, layer, feature):
     <parentidentifier></parentidentifier>
     <language></language>
     <type></type>
-    <title>VSAS_v1_qfield.qgs (offline)</title>
+    <title></title>
     <abstract></abstract>
     <contact>
       <name></name>
